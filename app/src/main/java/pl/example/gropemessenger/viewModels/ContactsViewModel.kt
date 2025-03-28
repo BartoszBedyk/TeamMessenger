@@ -4,7 +4,7 @@ import android.content.Context
 import android.provider.ContactsContract
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
-import pl.example.gropemessenger.Contact
+import pl.example.gropemessenger.data.Contact
 
 class ContactsViewModel : ViewModel() {
 

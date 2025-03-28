@@ -1,4 +1,4 @@
-package pl.example.gropemessenger
+package pl.example.gropemessenger.data
 
 data class Contact(
     val id: String,
