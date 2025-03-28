@@ -44,6 +44,7 @@ fun ContactsScreen() {
                 Text(text = contacts.value[index].name)
                 Text(text = contacts.value[index].number.toString())
                 HorizontalDivider(thickness = 1.dp)
+                //xD
             }
 
         }
