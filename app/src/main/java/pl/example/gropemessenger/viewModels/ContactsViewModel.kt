@@ -10,7 +10,7 @@ class ContactsViewModel : ViewModel() {
 
 
     private val _contacts = MutableStateFlow<List<Contact>>(emptyList())
-    val contacts: MutableStateFlow<List<Contact>> = _contacts
+    var contacts: MutableStateFlow<List<Contact>> = _contacts
 
     fun readContacts(context: Context) {
         val contentResolver = context.contentResolver
